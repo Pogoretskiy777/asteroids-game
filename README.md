@@ -50,9 +50,10 @@ java -cp "bin:lib/junit-platform-console-standalone-1.9.2.jar" org.junit.platfor
 ```
 
 The command should result in the following output in the terminal:
+
 ![](/tests.png)
 
-_NOTE: A headless (without a GUI) environment will have all the tests passing with the exceptions of testing GUI-based tests._
+_NOTE: A headless (without a GUI) environment will have all the tests passing with the exceptions of testing GUI-based tests such as testDraw()._
 
 ## Updating Java
 
