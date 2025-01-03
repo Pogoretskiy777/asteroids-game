@@ -57,31 +57,31 @@ _NOTE: A headless (without a GUI) environment will have all the tests passing wi
 
 ## Updating Java
 
-Step 1: Update the package list
+**Step 1:** Update the package list
 
 ```bash
 sudo apt-get update
 ```
 
-Step 2: Install OpenJDK 17
+**Step 2:** Install OpenJDK 17
 
 ```bash
 sudo apt-get install openjdk-17-jdk
 ```
 
-Step 3: Verify the installation
+**Step 3:** Verify the installation
 
 ```bash
 java -version
 ```
 
-Step 4: Ensure the $JAVA_HOME environment variable points to the Java 17 installation
+**Step 4:** Ensure the $JAVA_HOME environment variable points to the Java 17 installation
 
 ```bash
 readlink -f $(which java) | sed "s:bin/java::"
 ```
 
-Step 5: Add the following lines to your ~/.bashrc or ~/.zshrc file if not there already:
+**Step 5:** Add the following lines to your ~/.bashrc or ~/.zshrc file if not there already:
 
 ```bash
 export JAVA_HOME=<path-to-java-17>
@@ -89,7 +89,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 ```
 Replace <path-to-java-17> with the path found in Step 4.
 
-Step 6: Apply changes
+**Step 6:** Apply changes
 
 ```bash
 source ~/.bashrc
