@@ -35,6 +35,25 @@ The game immediately starts when the program starts running. The player is in co
 - **Turn Left:** (Left Arrow Key)
 - **Shoot Projectile:** (Spacebar)
 
+## Running A.S.T.E.R.O.I.D.S Tests
+
+These tests were implemented to ensure proper functionality during the development of this project. To run the tests, run the following command line in the root directory:
+
+**Windows:**
+```bash
+java -cp "bin;lib/junit-platform-console-standalone-1.9.2.jar" org.junit.platform.console.ConsoleLauncher --scan-classpath
+```
+**Linux/Mac:**
+```bash
+java -cp "bin:lib/junit-platform-console-standalone-1.9.2.jar" org.junit.platform.console.ConsoleLauncher --scan-classpath
+
+```
+
+The command should result in the following output in the terminal:
+[](/tests.png)
+
+_NOTE: A headless (without a GUI) environment will have all the tests passing with the exceptions of testing GUI-based tests._
+
 ## Updating Java
 
 Step 1: Update the package list
