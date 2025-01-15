@@ -27,7 +27,7 @@ A GUI window should pop up:
 
 The game immediately starts when the program starts running. The player is in control of a spaceship (the triangle) in the center of the screen. The goal is to shoot as many asteroids (circles) and UFOs (rectangles) before the player runs of out all 3 of their lives by hitting the flying objects. The player (and the spaceship's projectiles) can go off the screen and will re-enter from the opposite side, maintaining its momentum and direction. 
 
-![](/gameplay.gif)
+![ASTEROIDS gameplay](https://github.com/Pogoretskiy777/asteroids-game/blob/main/gameplay.gif)
 
 ### Controls
 
